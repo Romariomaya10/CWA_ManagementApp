@@ -110,7 +110,7 @@ const Sidebar: FC<any> = () => {
             <div id="bottom" className="d-flex justify-content-evenly align-items-center">
                 <i className={`bi bi-caret-left-fill iconSize mx-2 textSideBar`}></i>
                 <span className="textSideBar" onClick={() => {
-                    navigate('/')
+                    navigate('/dashboard')
                 }}> Back</span>
 
 

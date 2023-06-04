@@ -19,7 +19,7 @@ const Login: FC = () => {
 
             if (login2 === user.login && pass === user.password) {
                 localStorage.setItem('logado', JSON.stringify(true))
-                navigate('/')
+                navigate('/dashboard')
             }
 
         }

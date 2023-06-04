@@ -1,5 +1,5 @@
 import { FC, useEffect, useState } from 'react'
-import { Routes, Route, BrowserRouter, Navigate } from 'react-router-dom'
+import { Routes, Route, BrowserRouter, useNavigate, Navigate } from 'react-router-dom'
 import { App } from '../App'
 import { Login } from '../pages/login/login'
 import { Dashboard } from '../pages/dashboard/dashboard'
@@ -15,13 +15,16 @@ const AppRoutes: FC = () => {
     const isLogado = localStorage.getItem('logado')
 
     const aux = JSON.parse(isLogado!)
+
+    console.log(aux)
+
     setlogin(aux)
 
   }
 
   useEffect(() => {
     logado()
-  }, [localStorage.getItem('logado')])
+  })
 
   return (
     <BrowserRouter>
@@ -29,9 +32,16 @@ const AppRoutes: FC = () => {
 
         <Route element={<App />}>
           <>
+
             <Route path='/login' element={<Login />} />
-            <Route path='/' element={<Dashboard />} />
+            <Route path='/*' element={<Login />} />
+
+
+            <Route path='/dashboard' element={<Dashboard />} />
             <Route path='/calculator' element={<Calculator />} />
+
+
+
           </>
         </Route>
       </Routes>
