@@ -1,0 +1,16 @@
+.backgroundHeader {
+    background-color:#780303 ;
+    height: 10vh;
+}
+
+
+
+.perfilBackground{
+    background-color:#A41F1F ;
+    width: 250px;
+}
+
+.SizeDot{
+    color: green;
+    font-size: 10px;
+}

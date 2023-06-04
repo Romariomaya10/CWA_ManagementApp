@@ -1,0 +1,50 @@
+button {
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.wrapper {
+    background-color: black;
+    border-radius: 1em;
+    padding: 1em;
+    width: 280px;
+}
+
+.orange {
+    background-color: #FF9500;
+    color: white;
+    border-radius: 20px;
+}
+
+.grey {
+    background-color: #505050;
+    color: white;
+    border-radius: 20px;
+}
+
+.greyLight {
+    background-color: #acacac;
+
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.resultado {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    /* Ou 'right' = o resultado seria o mesmo */
+    margin-right: 1em;
+    font-size: 3.5em;
+    border-radius: 8px;
+}

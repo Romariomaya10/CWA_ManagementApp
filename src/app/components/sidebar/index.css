@@ -1,0 +1,45 @@
+.iconSize {
+    font-size: 28px;
+}
+
+.textSideBar {
+    color: white;
+
+}
+
+.logo {
+    color: white;
+}
+
+.elipseLogo {
+    background-image: url("../../../../public/elipse.png");
+    height: 75px;
+    width: 205px;
+}
+
+.iconSeachInput {
+    font-size: 24px;
+    color: rgb(107, 105, 105);
+    position: relative;
+    right: 40px;
+}
+
+.iconSizePlus {
+    font-size: 48px;
+}
+
+.hr {
+    color: white;
+}
+
+.backgroundSideBar {
+    background-color: #780303;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+input.input-box,
+textarea {
+    background: #500B06;
+}

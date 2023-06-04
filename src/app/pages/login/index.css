@@ -1,0 +1,111 @@
+.text {
+    color: brown;
+}
+
+.background {
+    background-image: url("../../../../public/backgroudLogin.jpg");
+    height: 100vh;
+    min-height: 100%;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(235, 17, 17, 0.39);
+
+}
+
+
+.OuterloginBox {
+    box-sizing: border-box;
+
+
+    width: 944px;
+    height: 539px;
+    background: #FF3737;
+
+
+    opacity: 0.9;
+    border: 2px solid #FEEDED;
+    box-shadow: 5px 4px 10px rgba(255, 247, 247, 0.25);
+    border-radius: 65px;
+}
+
+
+.innerLoginBox {
+    box-sizing: border-box;
+
+
+    width: 383px;
+    height: 539px;
+
+    background: rgba(140, 17, 17, 0.74);
+    opacity: 0.9;
+    border: 1px solid #FFF9F9;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+.LoginLeft {
+    box-sizing: border-box;
+    position: relative;
+    left: -2px;
+    width: 400px;
+    height: 539px;
+    background: rgba(140, 17, 17, 0.74);
+    opacity: 0.9;
+    border: 1px solid #FFF9F9;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+.LoginRight {
+    width: 600px;
+    height: 539px;
+    position: relative;
+    top: 100px;
+}
+
+.imageLogin {
+    border: 3px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 221px;
+    height: 201px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    position: relative;
+    bottom: -100px;
+}
+
+.text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 39px;
+    /* identical to box height */
+    position: relative;
+    bottom: -60px;
+
+    color: #D9CDCD;
+}
+
+.textLabel {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #FEFEFE;
+
+
+}
+
+.login{
+   width: 100%;
+}

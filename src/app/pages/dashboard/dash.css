@@ -1,0 +1,167 @@
+.backgroundDash {
+  background-color: #EF5C5C;
+}
+
+.overflowY {
+  overflow-y: auto;
+}
+
+
+.lib {
+  background-image: url('../../../../public/lib2.png');
+  width: 210px;
+  height: 146px;
+}
+
+.studyRoom {
+  background-image: url('../../../../public/study.png');
+  width: 210px;
+  height: 146px;
+}
+
+.textSpan {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 18px;
+
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.libUni {
+  background-image: url('../../../../public/library.png');
+  width: 305px;
+  height: 325px;
+}
+
+.imagesBackground {
+  background-color: rgba(182, 66, 66, 1);
+}
+
+.assigmentsHeader {
+  background-color: rgba(240, 220, 220, 1);
+  width: 234px;
+  height: 22px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  border-color: black;
+}
+
+.assigmentsHeader span {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.other1 {
+  background-image: url('../../../../public/other.png');
+  width: 314px;
+  height: 180px;
+}
+
+.other2 {
+  background-image: url('../../../../public/other.png');
+  width: 314px;
+  height: 228px;
+
+}
+
+.assigments {
+  border-radius: 8px;
+  border-color: black;
+  padding: 8px;
+  background-color: rgba(141, 75, 75, 1);
+}
+
+.table {
+  background: #F0DCDC;
+  width: 150px;
+  height: 125px;
+  border: 1px solid #000000;
+  box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.table span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.complete {
+  color: green;
+  font-weight: 700;
+}
+
+.inprogress {
+  color: blue;
+  font-weight: 700;
+}
+
+.incomplete {
+  color: red;
+  font-weight: 700;
+}
+
+.table2 {
+  width: 108px;
+  height: 68px;
+}
+
+.imagesBottom {
+  width: 100px;
+
+}
+
+.percent87 {
+  background-image: url('../../../../public/87P.png');
+  width: 125px;
+  height: 122px;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.bitcoin {
+  background-image: url('../../../../public/bitcoin.png');
+  width: 102px;
+  height: 106px;
+}
+
+.tech {
+  background-image: url('../../../../public/tech.png');
+  width: 102px;
+  height: 106px;
+}
+
+.courses {
+  background-image: url('../../../../public/courses.png');
+  width: 219px;
+  height: 107px;
+}
+
+.nutri {
+  width: 219px;
+  height: 107px;
+  background-image: url('../../../../public/nutri.png');
+}
+
+.abc {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.ads {
+  background-color: rgba(182, 66, 66, 1);
+}

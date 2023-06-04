@@ -1,0 +1,50 @@
+.assignment {
+    width: 234px;
+    height: 75px;
+    left: 283px;
+    top: 541px;
+
+    background: #F0DCDC;
+    border-radius: 10px;
+}
+
+.title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.month {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(87, 82, 82, 1);
+}
+
+.totalprogress{
+    color: white;
+ font-weight: 700;
+}
+
+.complete{
+ color: green;
+ font-weight: 700;
+}
+
+.inprogress {
+    color: blue;
+    font-weight: 700;
+}
+
+.incomplete{
+    color: rgb(255, 244, 183);
+    font-weight: 700;
+}
+
+.abc{
+    font-weight: 700;
+}

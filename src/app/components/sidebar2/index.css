@@ -1,0 +1,60 @@
+
+
+.backgroundSideBar2 {
+    background-color: #EB7171;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.headerSideBar2{
+    background-color: #780303;
+    color: whitesmoke;
+}
+
+
+.headerSideBar3{
+    background-color: #F55D5D;
+}
+.calendar{
+    background-color: lightgray;
+}
+
+input.input-box2{
+    background: #f8d576;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    width: 130%;
+}
+
+.searchLocation {
+    background-color: #f8d576;
+    height: 92px;
+    border-radius: 10px;
+    display:flex;
+
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.iconGoogle{
+    position: relative;
+    left: 22px;
+    top: 3px;
+    color: green;
+}
+
+.assigment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #E19393;
+}
+.hr {
+    color: white;
+}
