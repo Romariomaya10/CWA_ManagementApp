@@ -53,4 +53,4 @@ jobs:
           app-name: 'romarioApp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_734BCFAD797C440EBFBFD4715CFB1B27 }}
-          package: .
+          package: . 
