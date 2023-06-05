@@ -1,7 +1,7 @@
 {
   "name": "romario",
   "version": "0.1.0",
-  "private": true,
+  "private": true, 
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.10",
     "@emotion/react": "^11.11.0",
