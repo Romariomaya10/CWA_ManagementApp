@@ -98,5 +98,5 @@ const Calculator = () => {
         </div>
     )
 }
-
+ 
 export { Calculator }
