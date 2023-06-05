@@ -9,7 +9,7 @@ type assigments = {
     month: string
 }
 
-
+ 
 const Assigments: FC<assigments> = ({
     name,
     porcent,
