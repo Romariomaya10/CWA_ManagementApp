@@ -4,7 +4,7 @@
     background-color: #EB7171;
     position: fixed;
     height: 100%;
-    overflow: auto;
+    overflow-y:scroll;
 }
 
 .headerSideBar2{

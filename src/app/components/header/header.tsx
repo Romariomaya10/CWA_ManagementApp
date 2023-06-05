@@ -28,7 +28,7 @@ const Header: FC<any> = () => {
             icon: 'send'
         },
         {
-            nome: 'Asssignment',
+            nome: 'Assignment',
             icon: 'archive'
         },
         {
